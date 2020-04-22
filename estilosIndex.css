@@ -1,0 +1,24 @@
+/*começa o index*/
+body{
+    columns: #333333;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+
+#menu-opcoes ul{
+    font-size: 15px;
+}
+
+#menu-opcoes a{
+    color: #003366;
+
+}
+
+.sacola {
+    background: url(C:\Users\mayar\exercises\43\mirror-fashion\img\logo.png);
+    font-size: 14px;
+    padding-right: 35px;
+    text-align: right;
+    width: 140px;
+}
