@@ -1,6 +1,6 @@
 p{
-    color:blue;
-    background-color: yellow;
+    color:white;
+    background-color:black;
     font-family: monospace;
     line-height: 3px; /*tamanho da altura de cada linhas*/
     letter-spacing: 3px;/*tamanho do espaço entre letras*/
@@ -47,3 +47,21 @@ figure{
     padding: 15px;
     margin: 30px;
 }
+
+#cabecalho{
+    color:white;
+    text-align: center;
+}
+
+#rodape {
+    color: #777;
+    margin: 30px 0;
+    padding: 30px 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+#centro-distribuicao {
+    margin-left: auto;
+    margin-right: auto;
+    width: 550px;
+    }
