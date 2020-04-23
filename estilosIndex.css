@@ -22,7 +22,7 @@ header{
 }
 
 .sacola {
-    background: url(C:\Users\mayar\exercises\43\mirror-fashion\img\sacola.png) no-repeat top right; /*não funciona*/
+    background: url(C:/Users/mayar/exercises/43/mirror-fashion/img/sacola.png) no-repeat top right; /*não funciona*/
     font-size: 14px;
     padding-right: 35px;
     text-align: right;
@@ -36,12 +36,6 @@ header{
 .menu-opcoes li{
     display: inline; /*alinha tudo na mesma linha*/
     margin-left: 20px;
-}
-
-.container{
-    margin: 0 auto;
-    width: 940px;
-    
 }
 
 .busca, .menu-departamentos{
@@ -131,6 +125,58 @@ header{
     text-align: center;
     text-decoration: none;
 }
+
+/*rodapé*/
+
+footer{
+    clear: both;
+    position: relative;
+    background: url(C:/Users/mayar/exercises/fundo-rodape.png);
+    padding: 20px 0;
+}
+
+footer .container{
+    position: relative;
+}
+
+footer li{
+    float: left;
+}
+
+.social{
+    position: absolute;
+    top: 12px;
+    right: 0;
+}
+
+.social li a{
+    height: 32px;
+    width: 32px;
+
+    display: block;
+    text-indent: -9999px;
+}
+
+.social a[href*="facebook.com"] {
+    background-image: url(C:/Users/mayar/exercises/43/mirror-fashion/img/facebook.png);
+}
+.social a[href*="twitter.com"] {
+    background-image: url(C:/Users/mayar/exercises/43/mirror-fashion/img/twitter.png);
+}
+.social a[href*="plus.google.com"] {
+    background-image: url(C:/Users/mayar/exercises/43/mirror-fashion/img/googleplus.png);
+} 
+
+.social li{
+
+    margin-left: 25px;
+}
+
+.container{
+    margin: 0 auto;
+    width: 940px;
     
+}
+
     
     
