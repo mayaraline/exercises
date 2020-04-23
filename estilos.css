@@ -1,11 +1,4 @@
 /*cabeçalho*/
-
-body{
-    columns: #333333;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    
-}
-
 header{
     position: relative;
 }
@@ -23,7 +16,7 @@ header{
 }
 
 .sacola {
-    background: url(C:/Users/mayar/exercises/43/mirror-fashion/img/sacola.png) no-repeat top right; /*não funciona*/
+    background: url(C:/Users/mayar/exercises/43/mirror-fashion/img/sacola.png) no-repeat top right;
     font-size: 14px;
     padding-right: 35px;
     text-align: right;
@@ -55,6 +48,9 @@ body{
     margin-left: auto;
     margin-right: auto;
     width: 940px;
+    columns: #333333;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
 }
 
 p{
